@@ -14,6 +14,11 @@ FIXME
 \* `lein run-dev` automatically detects code changes. Alternatively, you can run in production mode
 with `lein run`.
 
+6. Run client side figwheel
+\* `lein run -m clojure.main script/figwheel.clj`
+
+7. Point browser: http://localhost:8080
+
 ## Configuration
 
 To configure logging see config/logback.xml. By default, the app logs to stdout and logs/.
